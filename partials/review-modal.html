@@ -1,0 +1,72 @@
+<div class="modal modal-review" data-modal="2">
+  <button class="js-modal-close modal-review-close" aria-label="close button">
+    <svg class="modal__cross">
+      <use href="./img/icons.svg#close"></use>
+    </svg>
+  </button>
+  <h2 class="modal-review-title title">
+    LEAVE A REVIEW ABOUT<span class="title-decor"> OUR CHOCOLATE</span>
+  </h2>
+  <form class="modal-form modal-content">
+    <label class="modal-form-field">
+      <span class="modal-form-input-wrapper">
+        <input
+          type="tel"
+          name="user_name"
+          class="modal-form-input"
+          required
+          pattern="[a-zA-Zа-яА-яіІїЇ]+"
+          minlength="2"
+          placeholder="Name"
+        />
+      </span>
+    </label>
+
+    <label class="modal-form-field">
+      <span class="modal-form-input-wrapper">
+        <input
+          type="email"
+          name="user_email"
+          class="modal-form-input"
+          required
+          placeholder="Email"
+        />
+      </span>
+    </label>
+
+    <label class="modal-form-field">
+      <span class="modal-form-input-wrapper">
+        <input
+          type="tel"
+          id="phone"
+          name="phone"
+          class="modal-form-input phone-input"
+          required
+          pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}"
+          title="xxx-xxx-xx-xx"
+          placeholder="Phone number"
+        />
+      </span>
+    </label>
+
+    <script>
+      var input = document.querySelector('#phone');
+      window.intlTelInput(input, {
+        separateDialCode: true,
+        initialCountry: 'ua',
+        excludeCountries: ['ru'],
+        customPlaceholder: true,
+        onlyCountries: ['us', 'ad', 'at', 'by', 'be', 'ch', 'ua'],
+      });
+    </script>
+
+    <label class="modal-form-field textarea-field">
+      <textarea
+        name="user-message"
+        class="modal-form-message"
+        placeholder="Text input"
+      ></textarea>
+    </label>
+    <button type="submit" class="primary-button modal-form-submit">Send</button>
+  </form>
+</div>
