@@ -40,6 +40,7 @@
 .review-swiper-wrapper {
   display: flex;
   padding-bottom: 20px;
+  gap: 32px;
 }
 
 .review {

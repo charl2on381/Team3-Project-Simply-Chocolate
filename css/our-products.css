@@ -4,6 +4,7 @@
 
 .product-swiper-wrapper {
   display: flex;
+  gap: 18px;
 }
 
 .product {
@@ -43,6 +44,7 @@
 
 .product-wrapper__img {
   margin-bottom: 8px;
+ 
 
   transition: transform var(--duration) var(--time-function);
 }
@@ -115,9 +117,12 @@
   .product {
     max-width: 270px;
     padding: 32px 20px;
+    
   }
 
   .product-swiper {
     padding-bottom: 45px;
   }
+
+
 }
