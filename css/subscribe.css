@@ -6,7 +6,7 @@
       rgba(0, 0, 0, 0.2),
       rgba(0, 0, 0, 0.2)
     ),
-    url(../img/subscribe/mobile-subcribe-bg.webp);
+    url(../simplechocolate/img/subscribe/mobile-subcribe-bg.webp);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -20,7 +20,7 @@
         rgba(0, 0, 0, 0.2),
         rgba(0, 0, 0, 0.2)
       ),
-      url(../img/subscribe/mobile-subcribe-bg@2x.webp);
+      url(../simplechocolate/img/subscribe/mobile-subcribe-bg@2x.webp);
   }
 }
 
@@ -52,7 +52,7 @@
         rgba(0, 0, 0, 0.2),
         rgba(0, 0, 0, 0.2)
       ),
-      url(../img/subscribe/tablet-subcribe-bg.webp);
+      url(../simplechocolate/img/subscribe/tablet-subcribe-bg.webp);
   }
   @media (-webkit-min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
@@ -63,7 +63,7 @@
           rgba(0, 0, 0, 0.2),
           rgba(0, 0, 0, 0.2)
         ),
-        url(../img/subscribe/tablet-subcribe-bg@2x.webp);
+        url(../simplechocolate/img/subscribe/tablet-subcribe-bg@2x.webp);
     }
   }
   .subscribe-content {
@@ -87,7 +87,7 @@
         rgba(0, 0, 0, 0.2),
         rgba(0, 0, 0, 0.2)
       ),
-      url(../img/subscribe//desktop-subcribe-bg.webp);
+      url(../simplechocolate/img/subscribe//desktop-subcribe-bg.webp);
   }
   @media (-webkit-min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
@@ -98,7 +98,7 @@
           rgba(0, 0, 0, 0.2),
           rgba(0, 0, 0, 0.2)
         ),
-        url(../img/subscribe/desktop-subcribe-bg@2x.webp);
+        url(../simplechocolate/img/subscribe/desktop-subcribe-bg@2x.webp);
     }
   }
 }
