@@ -9,11 +9,11 @@
   padding: 0 24px;
   margin-bottom: 24px;
 }
-.flip-card__list {
+/* .flip-card__list {
   display: flex;
   flex-wrap: wrap;
   row-gap: 20px;
-}
+} */
 
 .flip-card {
   position: relative;
