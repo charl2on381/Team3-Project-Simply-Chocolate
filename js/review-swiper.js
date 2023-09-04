@@ -1,30 +1,25 @@
-
-const swiper = new Swiper('.swiper-review', {
-  // Default parameters
+var swiper = new Swiper('.swiper', {
   slidesPerView: 1,
-  spaceBetween: 28,
+  spaceBetween: 0,
   loop: true,
-  // Responsive breakpoints
   breakpoints: {
-    // when window width is >= 375px
     375: {
       slidesPerView: 1,
-      spaceBetween: 28,
+      spaceBetween: 0,
     },
     // when window width is >= 768px
     768: {
-      slidesPerView: 2,
-      spaceBetween: 28,
+      slidesPerView: 2.46,
+      spaceBetween: 19,
     },
     // when window width is >= 1200px
     1200: {
-      slidesPerView: 3,
-      spaceBetween: 28,
+      slidesPerView: 4,
+      spaceBetween: 19,
     },
   },
-  // Pagination
   pagination: {
-    el: '.swiper-pagination-review',
+    el: '.swiper-pagination',
     clickable: true,
   },
 });
