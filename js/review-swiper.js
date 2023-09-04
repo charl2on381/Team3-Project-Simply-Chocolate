@@ -43,7 +43,7 @@ const reviewsSwiper = new Swiper('.swiper-review', {
     },
   },
   pagination: {
-    el: '.swiper-pagination',
+    el: '.swiper-pagination-review',
     clickable: true,
   },
 });
