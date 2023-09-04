@@ -1,5 +1,5 @@
 
-const swiper = new Swiper('.swiper-rew', {
+const swiper = new Swiper('.swiper-review', {
   // Default parameters
   slidesPerView: 1,
   spaceBetween: 28,
