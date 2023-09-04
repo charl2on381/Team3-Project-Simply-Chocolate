@@ -25,7 +25,7 @@
 // });
 
 // Swiper for reviews
-const reviewsSwiper = new Swiper('.swiper-review', {
+var reviewsSwiper = new Swiper('.swiper-review', {
   slidesPerView: 1,
   // slidesPerGroup: 2,
   spaceBetween: 28,
