@@ -18,7 +18,7 @@
 //   },
 // });
 
-const swiper = new Swiper('.swiper-rew', {
+var swiper = new Swiper('.swiper-rew', {
   // Default parameters
   slidesPerView: 1,
   spaceBetween: 28,
