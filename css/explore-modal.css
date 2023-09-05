@@ -10,7 +10,7 @@
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 15px;
   background-color: var(--primary-background-color);
-  z-index: 99;
+  
 }
 
 .subscribe-modal-close {
